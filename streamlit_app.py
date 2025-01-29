@@ -30,8 +30,8 @@ pd_df=my_dataframe.to_pandas()
 ing_list=st.multiselect("Choose upto 5 ingredients: ",my_dataframe,max_selections=5)
 
 if ing_list:
-    st.write(ing_list)
-    st.text(ing_list)
+    #st.write(ing_list)
+    #st.text(ing_list)
     ing_string =''
     for fruit_chosen in ing_list:
         ing_string += fruit_chosen+' '
